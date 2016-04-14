@@ -80,9 +80,9 @@ KB_MATRIX_LAYER(
 	KEY_h_H,	KEY_j_J,	KEY_k_K,	KEY_l_L,	KEY_Semicolon_Colon,	KEY_SingleQuote_DoubleQuote,	
 	KEY_F1,	KEY_n_N,	KEY_m_M,	KEY_Comma_LessThan,	KEY_Period_GreaterThan,	KEY_Slash_Question,	KEY_Equal_Plus,	
 	KEY_Dash_Underscore,	0x2D,	KEY_LeftBracket_LeftBrace,	KEY_RightBracket_RightBrace,	1,	
-	KEY_RightGUI,	KEY_Escape,	
+	KEY_RightGUI,	KEY_DeleteBackspace,	
 	KEY_PageUp,	0,	0,	
-	KEY_PageDown,	KEY_Spacebar,	KEY_DeleteBackspace	
+	KEY_PageDown,	KEY_Spacebar,	KEY_ReturnEnter	
 ),
 // LAYER 1
 KB_MATRIX_LAYER(
