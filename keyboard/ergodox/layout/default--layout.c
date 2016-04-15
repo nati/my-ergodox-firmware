@@ -67,7 +67,7 @@ KB_MATRIX_LAYER(
 	0,	
 	// left hand
 	KEY_Escape,	KEY_1_Exclamation,	KEY_2_At,	KEY_3_Pound,	KEY_4_Dollar,	KEY_5_Percent,	KEY_Backslash_Pipe,	
-	KEY_Tab,	KEY_q_Q,	KEY_w_W,	KEY_e_E,	KEY_r_R,	KEY_t_T,	KEY_Home,	
+	KEY_Tab,	KEY_q_Q,	KEY_w_W,	KEY_e_E,	KEY_r_R,	KEY_t_T,	KEY_Backslash_Pipe,	
 	KEY_LeftControl,	KEY_a_A,	KEY_s_S,	KEY_d_D,	KEY_f_F,	KEY_g_G,	
 	KEY_LeftShift,	KEY_z_Z,	KEY_x_X,	KEY_c_C,	KEY_v_V,	KEY_b_B,	KEY_F1,	
 	1,	KEY_LeftAlt,	KEY_Home,	KEY_DeleteBackspace,	KEY_Spacebar,	
@@ -76,13 +76,13 @@ KB_MATRIX_LAYER(
 	KEY_LeftGUI,	KEY_ReturnEnter,	KEY_DownArrow,	
 	// right hand
 	2,	KEY_6_Caret,	KEY_7_Ampersand,	KEY_8_Asterisk,	KEY_9_LeftParenthesis,	KEY_0_RightParenthesis,	KEY_GraveAccent_Tilde,	
-	KEY_End,	KEY_y_Y,	KEY_u_U,	KEY_i_I,	KEY_o_O,	KEY_p_P,	KEY_RightBracket_RightBrace,	
+	KEY_LeftBracket_LeftBrace,	KEY_y_Y,	KEY_u_U,	KEY_i_I,	KEY_o_O,	KEY_p_P,	KEY_RightBracket_RightBrace,	
 	KEY_h_H,	KEY_j_J,	KEY_k_K,	KEY_l_L,	KEY_Semicolon_Colon,	KEY_SingleQuote_DoubleQuote,	
-	KEY_F1,	KEY_n_N,	KEY_m_M,	KEY_Comma_LessThan,	KEY_Period_GreaterThan,	KEY_Slash_Question,	KEY_Equal_Plus,	
-	KEY_Dash_Underscore,	0x2D,	KEY_LeftBracket_LeftBrace,	KEY_RightBracket_RightBrace,	1,	
-	KEY_RightGUI,	KEY_DeleteBackspace,	
+	KEY_Dash_Underscore,	KEY_n_N,	KEY_m_M,	KEY_Comma_LessThan,	KEY_Period_GreaterThan,	KEY_Slash_Question,	KEY_Equal_Plus,	
+	KEY_DeleteBackspace,	0x2D,	0x34,	0x33,	1,	
+	KEYPAD_LeftParenthesis,	KEYPAD_RightParenthesis,	
 	KEY_PageUp,	0,	0,	
-	KEY_PageDown,	KEY_Spacebar,	KEY_ReturnEnter	
+	KEY_PageDown,	KEY_ReturnEnter,	KEY_Spacebar	
 ),
 // LAYER 1
 KB_MATRIX_LAYER(
@@ -314,7 +314,7 @@ KB_MATRIX_LAYER(
 	kprrel,	kprrel,	kprrel,	kprrel,	kprrel,	kprrel,	kprrel,	
 	kprrel,	kprrel,	kprrel,	kprrel,	kprrel,	kprrel,	
 	kprrel,	kprrel,	kprrel,	kprrel,	kprrel,	kprrel,	kprrel,	
-	kprrel,	sshprre,	kprrel,	kprrel,	lpush1,	
+	kprrel,	sshprre,	sshprre,	sshprre,	lpush1,	
 	kprrel,	kprrel,	
 	kprrel,	NULL,	NULL,	
 	kprrel,	kprrel,	kprrel	
@@ -549,7 +549,7 @@ KB_MATRIX_LAYER(
 	kprrel,	kprrel,	kprrel,	kprrel,	kprrel,	kprrel,	kprrel,	
 	kprrel,	kprrel,	kprrel,	kprrel,	kprrel,	kprrel,	
 	kprrel,	kprrel,	kprrel,	kprrel,	kprrel,	kprrel,	kprrel,	
-	kprrel,	sshprre,	kprrel,	kprrel,	lpop1,	
+	kprrel,	sshprre,	sshprre,	sshprre,	lpop1,	
 	kprrel,	kprrel,	
 	kprrel,	NULL,	NULL,	
 	kprrel,	kprrel,	kprrel	
