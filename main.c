@@ -142,7 +142,7 @@ int main(void) {
 /*
  * Exec key
  * - Execute the keypress or keyrelease function (if it exists) of the key at
- *   the current possition.
+ *   the current position.
  */
 void main_exec_key(void) {
 	void (*key_function)(void) =
